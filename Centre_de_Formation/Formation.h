@@ -23,8 +23,11 @@ class Formation
     Formateur formateur;
 
 public:
+    Formation(void);
     Formation(string , string , float, int, int, int, int, int, int, int, int, int, int,Formateur);
    
+    void operator=(const Formation&); 
+
     ~Formation(void);
     friend ostream& operator<<(ostream&, Formation&);
     friend istream& operator>>(istream&, Formation&);

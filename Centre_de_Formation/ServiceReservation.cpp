@@ -1,8 +1,5 @@
 #include "ServiceReservation.h"
 
-ServiceReservation::ServiceReservation(string , int)
-{
-}
 
 
 

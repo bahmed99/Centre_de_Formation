@@ -1,14 +1,13 @@
 
 
 #include <iostream>
-#include "Formateur.h"
+#include <vector>
+
+using namespace std; 
 
 int main()
 {
-	Formateur a("ahmed"),b; 
-	b = a; 
-	cout << b.nom<< endl;
-
+	
 	return 0; 
 }
 
