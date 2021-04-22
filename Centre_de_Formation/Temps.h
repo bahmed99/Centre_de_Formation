@@ -11,6 +11,8 @@ protected :
 public: 
 	Temps(int = 0, int = 0);
 	~Temps(void);
+
+	void operator =(const Temps&);
 	friend ostream& operator<<(ostream&, Temps&);
 	friend istream& operator>>(istream&, Temps&);
 };

@@ -9,6 +9,7 @@ Adherant::~Adherant(void)
 {
 }
 
+
 void Adherant::operator=(const Adherant& a)
 {
 	nom = a.nom;

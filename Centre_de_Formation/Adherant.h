@@ -18,7 +18,10 @@ public:
     Adherant(string = "", int = 0, int = 0, int = 0, int = 0, int = 0, string = "");
     friend ostream& operator<<(ostream&, Adherant&);
     friend istream& operator>>(istream&, Adherant&);
+
     ~Adherant(void);
+
+
     void operator=(const Adherant&);
 
 };

@@ -2,18 +2,19 @@
 #include<string>
 #include<iostream>
 #include "Date.h"
+#include "Disponibilite.h"
+#include<vector>
 using namespace std;
 
 
 class ServiceReservation
 {
 protected : 
-    string disp;
-    int num;
-public:
-    ServiceReservation(string = "", int = 0);
+    vector <Disponibilite> dispo; 
    
-    ~ServiceReservation(void);frg
+public:
+    ServiceReservation(void);
+    
+    ~ServiceReservation(void);
 };
-
 

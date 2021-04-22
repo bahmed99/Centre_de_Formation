@@ -140,20 +140,30 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Adherant.cpp" />
+    <ClCompile Include="Centre.cpp" />
     <ClCompile Include="Centre_de_Formation.cpp" />
     <ClCompile Include="Client.cpp" />
     <ClCompile Include="Date.cpp" />
+    <ClCompile Include="Disponibilite.cpp" />
     <ClCompile Include="Formateur.cpp" />
     <ClCompile Include="Formation.cpp" />
+    <ClCompile Include="Materiels.cpp" />
+    <ClCompile Include="Reservation.cpp" />
+    <ClCompile Include="Salle.cpp" />
     <ClCompile Include="ServiceReservation.cpp" />
     <ClCompile Include="Temps.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Adherant.h" />
+    <ClInclude Include="Centre.h" />
     <ClInclude Include="Client.h" />
     <ClInclude Include="Date.h" />
+    <ClInclude Include="Disponibilite.h" />
     <ClInclude Include="Formateur.h" />
     <ClInclude Include="Formation.h" />
+    <ClInclude Include="Materiels.h" />
+    <ClInclude Include="Reservation.h" />
+    <ClInclude Include="Salle.h" />
     <ClInclude Include="ServiceReservation.h" />
     <ClInclude Include="Temps.h" />
   </ItemGroup>
