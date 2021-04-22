@@ -13,7 +13,7 @@ protected :
 public:
     ServiceReservation(string = "", int = 0);
    
-    ~ServiceReservation(void);
+    ~ServiceReservation(void);frg
 };
 
 
